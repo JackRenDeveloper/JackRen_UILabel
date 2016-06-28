@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDEBA40C1D232FE000E8FBE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA40B1D232FE000E8FBE1 /* main.m */; };
+		FDEBA40F1D232FE000E8FBE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA40E1D232FE000E8FBE1 /* AppDelegate.m */; };
+		FDEBA4121D232FE000E8FBE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA4111D232FE000E8FBE1 /* ViewController.m */; };
+		FDEBA4151D232FE000E8FBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEBA4131D232FE000E8FBE1 /* Main.storyboard */; };
+		FDEBA4171D232FE000E8FBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEBA4161D232FE000E8FBE1 /* Assets.xcassets */; };
+		FDEBA41A1D232FE000E8FBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEBA4181D232FE000E8FBE1 /* LaunchScreen.storyboard */; };
+		FDEBA4251D232FE000E8FBE1 /* JackRen_UILabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA4241D232FE000E8FBE1 /* JackRen_UILabelTests.m */; };
+		FDEBA4301D232FE000E8FBE1 /* JackRen_UILabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA42F1D232FE000E8FBE1 /* JackRen_UILabelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDEBA4211D232FE000E8FBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDEBA3FF1D232FE000E8FBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEBA4061D232FE000E8FBE1;
+			remoteInfo = JackRen_UILabel;
+		};
+		FDEBA42C1D232FE000E8FBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDEBA3FF1D232FE000E8FBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEBA4061D232FE000E8FBE1;
+			remoteInfo = JackRen_UILabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDEBA4071D232FE000E8FBE1 /* JackRen_UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackRen_UILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEBA40B1D232FE000E8FBE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDEBA40D1D232FE000E8FBE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDEBA40E1D232FE000E8FBE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDEBA4101D232FE000E8FBE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDEBA4111D232FE000E8FBE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDEBA4141D232FE000E8FBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDEBA4161D232FE000E8FBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDEBA4191D232FE000E8FBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDEBA41B1D232FE000E8FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEBA4201D232FE000E8FBE1 /* JackRen_UILabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackRen_UILabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEBA4241D232FE000E8FBE1 /* JackRen_UILabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackRen_UILabelTests.m; sourceTree = "<group>"; };
+		FDEBA4261D232FE000E8FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEBA42B1D232FE000E8FBE1 /* JackRen_UILabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackRen_UILabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEBA42F1D232FE000E8FBE1 /* JackRen_UILabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackRen_UILabelUITests.m; sourceTree = "<group>"; };
+		FDEBA4311D232FE000E8FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDEBA4041D232FE000E8FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEBA41D1D232FE000E8FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEBA4281D232FE000E8FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDEBA3FE1D232FE000E8FBE1 = {
+			isa = PBXGroup;
+			children = (
+				FDEBA4091D232FE000E8FBE1 /* JackRen_UILabel */,
+				FDEBA4231D232FE000E8FBE1 /* JackRen_UILabelTests */,
+				FDEBA42E1D232FE000E8FBE1 /* JackRen_UILabelUITests */,
+				FDEBA4081D232FE000E8FBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDEBA4081D232FE000E8FBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBA4071D232FE000E8FBE1 /* JackRen_UILabel.app */,
+				FDEBA4201D232FE000E8FBE1 /* JackRen_UILabelTests.xctest */,
+				FDEBA42B1D232FE000E8FBE1 /* JackRen_UILabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDEBA4091D232FE000E8FBE1 /* JackRen_UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBA40D1D232FE000E8FBE1 /* AppDelegate.h */,
+				FDEBA40E1D232FE000E8FBE1 /* AppDelegate.m */,
+				FDEBA4101D232FE000E8FBE1 /* ViewController.h */,
+				FDEBA4111D232FE000E8FBE1 /* ViewController.m */,
+				FDEBA4131D232FE000E8FBE1 /* Main.storyboard */,
+				FDEBA4161D232FE000E8FBE1 /* Assets.xcassets */,
+				FDEBA4181D232FE000E8FBE1 /* LaunchScreen.storyboard */,
+				FDEBA41B1D232FE000E8FBE1 /* Info.plist */,
+				FDEBA40A1D232FE000E8FBE1 /* Supporting Files */,
+			);
+			path = JackRen_UILabel;
+			sourceTree = "<group>";
+		};
+		FDEBA40A1D232FE000E8FBE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBA40B1D232FE000E8FBE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDEBA4231D232FE000E8FBE1 /* JackRen_UILabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBA4241D232FE000E8FBE1 /* JackRen_UILabelTests.m */,
+				FDEBA4261D232FE000E8FBE1 /* Info.plist */,
+			);
+			path = JackRen_UILabelTests;
+			sourceTree = "<group>";
+		};
+		FDEBA42E1D232FE000E8FBE1 /* JackRen_UILabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBA42F1D232FE000E8FBE1 /* JackRen_UILabelUITests.m */,
+				FDEBA4311D232FE000E8FBE1 /* Info.plist */,
+			);
+			path = JackRen_UILabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDEBA4061D232FE000E8FBE1 /* JackRen_UILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEBA4341D232FE000E8FBE1 /* Build configuration list for PBXNativeTarget "JackRen_UILabel" */;
+			buildPhases = (
+				FDEBA4031D232FE000E8FBE1 /* Sources */,
+				FDEBA4041D232FE000E8FBE1 /* Frameworks */,
+				FDEBA4051D232FE000E8FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackRen_UILabel;
+			productName = JackRen_UILabel;
+			productReference = FDEBA4071D232FE000E8FBE1 /* JackRen_UILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDEBA41F1D232FE000E8FBE1 /* JackRen_UILabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEBA4371D232FE000E8FBE1 /* Build configuration list for PBXNativeTarget "JackRen_UILabelTests" */;
+			buildPhases = (
+				FDEBA41C1D232FE000E8FBE1 /* Sources */,
+				FDEBA41D1D232FE000E8FBE1 /* Frameworks */,
+				FDEBA41E1D232FE000E8FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDEBA4221D232FE000E8FBE1 /* PBXTargetDependency */,
+			);
+			name = JackRen_UILabelTests;
+			productName = JackRen_UILabelTests;
+			productReference = FDEBA4201D232FE000E8FBE1 /* JackRen_UILabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDEBA42A1D232FE000E8FBE1 /* JackRen_UILabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEBA43A1D232FE000E8FBE1 /* Build configuration list for PBXNativeTarget "JackRen_UILabelUITests" */;
+			buildPhases = (
+				FDEBA4271D232FE000E8FBE1 /* Sources */,
+				FDEBA4281D232FE000E8FBE1 /* Frameworks */,
+				FDEBA4291D232FE000E8FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDEBA42D1D232FE000E8FBE1 /* PBXTargetDependency */,
+			);
+			name = JackRen_UILabelUITests;
+			productName = JackRen_UILabelUITests;
+			productReference = FDEBA42B1D232FE000E8FBE1 /* JackRen_UILabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDEBA3FF1D232FE000E8FBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JackRen;
+				TargetAttributes = {
+					FDEBA4061D232FE000E8FBE1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FDEBA41F1D232FE000E8FBE1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FDEBA4061D232FE000E8FBE1;
+					};
+					FDEBA42A1D232FE000E8FBE1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FDEBA4061D232FE000E8FBE1;
+					};
+				};
+			};
+			buildConfigurationList = FDEBA4021D232FE000E8FBE1 /* Build configuration list for PBXProject "JackRen_UILabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDEBA3FE1D232FE000E8FBE1;
+			productRefGroup = FDEBA4081D232FE000E8FBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDEBA4061D232FE000E8FBE1 /* JackRen_UILabel */,
+				FDEBA41F1D232FE000E8FBE1 /* JackRen_UILabelTests */,
+				FDEBA42A1D232FE000E8FBE1 /* JackRen_UILabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDEBA4051D232FE000E8FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEBA41A1D232FE000E8FBE1 /* LaunchScreen.storyboard in Resources */,
+				FDEBA4171D232FE000E8FBE1 /* Assets.xcassets in Resources */,
+				FDEBA4151D232FE000E8FBE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEBA41E1D232FE000E8FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEBA4291D232FE000E8FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDEBA4031D232FE000E8FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEBA4121D232FE000E8FBE1 /* ViewController.m in Sources */,
+				FDEBA40F1D232FE000E8FBE1 /* AppDelegate.m in Sources */,
+				FDEBA40C1D232FE000E8FBE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEBA41C1D232FE000E8FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEBA4251D232FE000E8FBE1 /* JackRen_UILabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEBA4271D232FE000E8FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEBA4301D232FE000E8FBE1 /* JackRen_UILabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDEBA4221D232FE000E8FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDEBA4061D232FE000E8FBE1 /* JackRen_UILabel */;
+			targetProxy = FDEBA4211D232FE000E8FBE1 /* PBXContainerItemProxy */;
+		};
+		FDEBA42D1D232FE000E8FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDEBA4061D232FE000E8FBE1 /* JackRen_UILabel */;
+			targetProxy = FDEBA42C1D232FE000E8FBE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDEBA4131D232FE000E8FBE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDEBA4141D232FE000E8FBE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDEBA4181D232FE000E8FBE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDEBA4191D232FE000E8FBE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDEBA4321D232FE000E8FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDEBA4331D232FE000E8FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDEBA4351D232FE000E8FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JackRen_UILabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.JackRen-UILabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDEBA4361D232FE000E8FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JackRen_UILabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.JackRen-UILabel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDEBA4381D232FE000E8FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JackRen_UILabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.JackRen-UILabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackRen_UILabel.app/JackRen_UILabel";
+			};
+			name = Debug;
+		};
+		FDEBA4391D232FE000E8FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JackRen_UILabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.JackRen-UILabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackRen_UILabel.app/JackRen_UILabel";
+			};
+			name = Release;
+		};
+		FDEBA43B1D232FE000E8FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JackRen_UILabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.JackRen-UILabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JackRen_UILabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FDEBA43C1D232FE000E8FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JackRen_UILabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackren-email-163.com.JackRen-UILabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JackRen_UILabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDEBA4021D232FE000E8FBE1 /* Build configuration list for PBXProject "JackRen_UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEBA4321D232FE000E8FBE1 /* Debug */,
+				FDEBA4331D232FE000E8FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDEBA4341D232FE000E8FBE1 /* Build configuration list for PBXNativeTarget "JackRen_UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEBA4351D232FE000E8FBE1 /* Debug */,
+				FDEBA4361D232FE000E8FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDEBA4371D232FE000E8FBE1 /* Build configuration list for PBXNativeTarget "JackRen_UILabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEBA4381D232FE000E8FBE1 /* Debug */,
+				FDEBA4391D232FE000E8FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDEBA43A1D232FE000E8FBE1 /* Build configuration list for PBXNativeTarget "JackRen_UILabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEBA43B1D232FE000E8FBE1 /* Debug */,
+				FDEBA43C1D232FE000E8FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDEBA3FF1D232FE000E8FBE1 /* Project object */;
+}
