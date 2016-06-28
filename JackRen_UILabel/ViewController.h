@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JackRenDefineWordSpace.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong) JackRenDefineWordSpace *DefineLabel;
+@property (nonatomic,strong) JackRenDefineWordSpace *DefineSecondLabel;
 
 @end
 

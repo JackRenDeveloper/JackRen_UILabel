@@ -15,6 +15,7 @@
 		FDEBA41A1D232FE000E8FBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEBA4181D232FE000E8FBE1 /* LaunchScreen.storyboard */; };
 		FDEBA4251D232FE000E8FBE1 /* JackRen_UILabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA4241D232FE000E8FBE1 /* JackRen_UILabelTests.m */; };
 		FDEBA4301D232FE000E8FBE1 /* JackRen_UILabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA42F1D232FE000E8FBE1 /* JackRen_UILabelUITests.m */; };
+		FDEBA43F1D23300300E8FBE1 /* JackRenDefineWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBA43E1D23300300E8FBE1 /* JackRenDefineWordSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FDEBA42B1D232FE000E8FBE1 /* JackRen_UILabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackRen_UILabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEBA42F1D232FE000E8FBE1 /* JackRen_UILabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackRen_UILabelUITests.m; sourceTree = "<group>"; };
 		FDEBA4311D232FE000E8FBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEBA43D1D23300300E8FBE1 /* JackRenDefineWordSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JackRenDefineWordSpace.h; sourceTree = "<group>"; };
+		FDEBA43E1D23300300E8FBE1 /* JackRenDefineWordSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JackRenDefineWordSpace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		FDEBA4091D232FE000E8FBE1 /* JackRen_UILabel */ = {
 			isa = PBXGroup;
 			children = (
+				FDEBA43D1D23300300E8FBE1 /* JackRenDefineWordSpace.h */,
+				FDEBA43E1D23300300E8FBE1 /* JackRenDefineWordSpace.m */,
 				FDEBA40D1D232FE000E8FBE1 /* AppDelegate.h */,
 				FDEBA40E1D232FE000E8FBE1 /* AppDelegate.m */,
 				FDEBA4101D232FE000E8FBE1 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEBA43F1D23300300E8FBE1 /* JackRenDefineWordSpace.m in Sources */,
 				FDEBA4121D232FE000E8FBE1 /* ViewController.m in Sources */,
 				FDEBA40F1D232FE000E8FBE1 /* AppDelegate.m in Sources */,
 				FDEBA40C1D232FE000E8FBE1 /* main.m in Sources */,
